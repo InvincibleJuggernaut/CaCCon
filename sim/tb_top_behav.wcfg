@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="100.001 ns"></ZoomEndTime>
+      <Cursor1Time time="100.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="247"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="51" />
+   <wvobject fp_name="/tb_top/read_address" type="array">
+      <obj_property name="ElementShortName">read_address[22:0]</obj_property>
+      <obj_property name="ObjectShortName">read_address[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/hold" type="logic">
+      <obj_property name="ElementShortName">hold</obj_property>
+      <obj_property name="ObjectShortName">hold</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/PS" type="array">
+      <obj_property name="ElementShortName">PS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">PS[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/plru_bits[751]" type="array">
+      <obj_property name="ElementShortName">[751][2:0]</obj_property>
+      <obj_property name="ObjectShortName">[751][2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/wrDataProc" type="array">
+      <obj_property name="ElementShortName">wrDataProc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wrDataProc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/writeBackToCache0" type="logic">
+      <obj_property name="ElementShortName">writeBackToCache0</obj_property>
+      <obj_property name="ObjectShortName">writeBackToCache0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/writeBackToCache1" type="logic">
+      <obj_property name="ElementShortName">writeBackToCache1</obj_property>
+      <obj_property name="ObjectShortName">writeBackToCache1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/writeBackToCache2" type="logic">
+      <obj_property name="ElementShortName">writeBackToCache2</obj_property>
+      <obj_property name="ObjectShortName">writeBackToCache2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/writeBackToCache3" type="logic">
+      <obj_property name="ElementShortName">writeBackToCache3</obj_property>
+      <obj_property name="ObjectShortName">writeBackToCache3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c0/cache_mem[751]" type="array">
+      <obj_property name="ElementShortName">[751][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[751][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c1/cache_mem[751]" type="array">
+      <obj_property name="ElementShortName">[751][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[751][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c2/cache_mem[751]" type="array">
+      <obj_property name="ElementShortName">[751][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[751][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c3/cache_mem[751]" type="array">
+      <obj_property name="ElementShortName">[751][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[751][31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/wrEnProc" type="logic">
+      <obj_property name="ElementShortName">wrEnProc</obj_property>
+      <obj_property name="ObjectShortName">wrEnProc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/valid_cpu_request" type="logic">
+      <obj_property name="ElementShortName">valid_cpu_request</obj_property>
+      <obj_property name="ObjectShortName">valid_cpu_request</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/cache0_miss" type="logic">
+      <obj_property name="ElementShortName">cache0_miss</obj_property>
+      <obj_property name="ObjectShortName">cache0_miss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/cache1_miss" type="logic">
+      <obj_property name="ElementShortName">cache1_miss</obj_property>
+      <obj_property name="ObjectShortName">cache1_miss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/cache2_miss" type="logic">
+      <obj_property name="ElementShortName">cache2_miss</obj_property>
+      <obj_property name="ObjectShortName">cache2_miss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/cache3_miss" type="logic">
+      <obj_property name="ElementShortName">cache3_miss</obj_property>
+      <obj_property name="ObjectShortName">cache3_miss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/cache_miss" type="logic">
+      <obj_property name="ElementShortName">cache_miss</obj_property>
+      <obj_property name="ObjectShortName">cache_miss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/rdAddress" type="array">
+      <obj_property name="ElementShortName">rdAddress[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rdAddress[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c0/rdEnable" type="logic">
+      <obj_property name="ElementShortName">rdEnable</obj_property>
+      <obj_property name="ObjectShortName">rdEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/dataBackFromRAM" type="array">
+      <obj_property name="ElementShortName">dataBackFromRAM[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataBackFromRAM[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/dataToProc" type="array">
+      <obj_property name="ElementShortName">dataToProc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataToProc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c0/cache_mem" type="array">
+      <obj_property name="ElementShortName">cache_mem[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_mem[1023:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c1/cache_mem" type="array">
+      <obj_property name="ElementShortName">cache_mem[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_mem[1023:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c2/cache_mem" type="array">
+      <obj_property name="ElementShortName">cache_mem[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_mem[1023:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c3/cache_mem" type="array">
+      <obj_property name="ElementShortName">cache_mem[1023:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">cache_mem[1023:0][31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/received_addr" type="array">
+      <obj_property name="ElementShortName">received_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">received_addr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/DataWrite" type="array">
+      <obj_property name="ElementShortName">DataWrite[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DataWrite[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/outTagValid" type="logic">
+      <obj_property name="ElementShortName">outTagValid</obj_property>
+      <obj_property name="ObjectShortName">outTagValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/in_dirty_bit" type="logic">
+      <obj_property name="ElementShortName">in_dirty_bit</obj_property>
+      <obj_property name="ObjectShortName">in_dirty_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/out_dirty_bit" type="logic">
+      <obj_property name="ElementShortName">out_dirty_bit</obj_property>
+      <obj_property name="ObjectShortName">out_dirty_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/TagWrite" type="array">
+      <obj_property name="ElementShortName">TagWrite[10:0]</obj_property>
+      <obj_property name="ObjectShortName">TagWrite[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c0/inTagValid" type="logic">
+      <obj_property name="ElementShortName">inTagValid</obj_property>
+      <obj_property name="ObjectShortName">inTagValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c0/tag" type="array">
+      <obj_property name="ElementShortName">tag[10:0]</obj_property>
+      <obj_property name="ObjectShortName">tag[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c0/inTagValid" type="logic">
+      <obj_property name="ElementShortName">inTagValid</obj_property>
+      <obj_property name="ObjectShortName">inTagValid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c0/valid_bits" type="array">
+      <obj_property name="ElementShortName">valid_bits[1023:0]</obj_property>
+      <obj_property name="ObjectShortName">valid_bits[1023:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/rdEnToRam" type="logic">
+      <obj_property name="ElementShortName">rdEnToRam</obj_property>
+      <obj_property name="ObjectShortName">rdEnToRam</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/c0/Addr" type="array">
+      <obj_property name="ElementShortName">Addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">Addr[9:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/plru_bits" type="array">
+      <obj_property name="ElementShortName">plru_bits[1023:0][2:0]</obj_property>
+      <obj_property name="ObjectShortName">plru_bits[1023:0][2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/cache0_wb" type="logic">
+      <obj_property name="ElementShortName">cache0_wb</obj_property>
+      <obj_property name="ObjectShortName">cache0_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/cache1_wb" type="logic">
+      <obj_property name="ElementShortName">cache1_wb</obj_property>
+      <obj_property name="ObjectShortName">cache1_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/cache2_wb" type="logic">
+      <obj_property name="ElementShortName">cache2_wb</obj_property>
+      <obj_property name="ObjectShortName">cache2_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/cache3_wb" type="logic">
+      <obj_property name="ElementShortName">cache3_wb</obj_property>
+      <obj_property name="ObjectShortName">cache3_wb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/dataBackFromCache0" type="array">
+      <obj_property name="ElementShortName">dataBackFromCache0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataBackFromCache0[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/dataBackFromCache1" type="array">
+      <obj_property name="ElementShortName">dataBackFromCache1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataBackFromCache1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/dataBackFromCache2" type="array">
+      <obj_property name="ElementShortName">dataBackFromCache2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataBackFromCache2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/t/cc0/dataBackFromCache3" type="array">
+      <obj_property name="ElementShortName">dataBackFromCache3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataBackFromCache3[31:0]</obj_property>
+   </wvobject>
+</wave_config>
